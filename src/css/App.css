@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body{
+   background-color: #f3f2ef;
+}
+
+.app-body{
+  display: flex;
+  margin-top: 25px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}

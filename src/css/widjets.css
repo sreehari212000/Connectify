@@ -1,0 +1,37 @@
+.widjets{
+    position: sticky;
+    top: 75px;
+    flex: 0.25;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+.widjets-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.widjets-header > h2{
+    font-size: 18px;
+    font-weight: 400;
+}
+.widjets-article{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.widjets-article:hover{
+    background-color: whitesmoke;
+}
+.widjets-articleLeft{
+    color: #0b211c;
+    margin-right: 5px;
+}
+
+.widjets-articleRight > p{
+    font-size: 12px;
+    color: gray;
+}
